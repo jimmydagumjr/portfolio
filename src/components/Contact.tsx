@@ -1,17 +1,32 @@
-import React from 'react';
+import React from "react";
+import ContactCSS from "./../assets/css/Contact.module.css";
 
 const Contact: React.FC = () => {
   return (
     <section id="contact">
       <h2>contact</h2>
-      <p>Email: <a href="mailto:jimmy@example.com">jimmy@example.com</a></p>
-      <p>Phone: <a href="tel:+1234567890">+1 (234) 567-890</a></p>
-      <p>
-        Find me on{' '}
-        <a href="https://www.linkedin.com/in/jimmy-dagum-jr" target="_blank" rel="noopener noreferrer">
-          LinkedIn
-        </a>
-      </p>
+      <div className={ContactCSS.contactWrapper}>
+        <p className={ContactCSS.contactDescription}>
+          I'm always open to new opportunities and collaborations. Feel free to
+          reach out to me via email, or connect with me on LinkedIn to send a
+          message directly. I'm happy to connect and discuss how we can work
+          together!
+        </p>
+        <p className={ContactCSS.contactDescription}>
+          email:{" "}
+          <a href="mailto:jimmydagumjr@gmail.com">jimmydagumjr@gmail.com</a>
+        </p>
+        <p className={ContactCSS.contactDescription}>
+          linkedin:
+          <a
+            href="https://www.linkedin.com/in/jimmy-dagum-jr"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            https://www.linkedin.com/in/jimmy-dagum-jr
+          </a>
+        </p>
+      </div>
     </section>
   );
 };

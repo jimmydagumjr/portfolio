@@ -22,7 +22,7 @@ const Experience: React.FC = () => {
       company: "NexOasis",
       companyLink: "https://nexoasis.com/",
       description:
-        "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.",
+        "Engineered a web UI for automating virtual machine cloning and secure file transfers via SSH, using Python, PHP, JavaScript, CSS (Bootstrap), and HTML. Designed and implemented MySQL data models to manage user-specific roles and associate virtual machine IDs with parsed cron jobs, facilitating the automated cloning process and secure file transfers. Configured a Proxmox environment to host numerous virtual machines serving as certificate authorities, and set up both GitLab and Gitea servers within virtual machines to ensure version control in a secure environment. Additionally, I automated cron jobs, managed virtual environments, and provided weekly documentation to ensure smooth operation and clear communication within the team.",
       skills: [
         "PHP",
         "JavaScript",
@@ -40,7 +40,7 @@ const Experience: React.FC = () => {
       company: "University of Nevada, Las Vegas",
       companyLink: "https://www.unlv.edu/",
       description:
-        "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.",
+        "Architected a web application using ReactJS and in-house APIs to visualize real-time solar energy data across 16 buildings, alongside local weather conditions. Designed a Python-based solution to extract data from three separate databases, identifying missing key cards. Automated the consolidation of over 10,000 work orders and related surveys using JavaScript in Google Sheets. Provided technical support to over 250 UNLV staff across 19 buildings, troubleshooting hardware and software issues, configuring new computers with operating systems, software applications, and networking settings. I also maintained an inventory of over 300 computers and equipment, conducting regular audits to track the location and status of each item.",
       skills: ["Python", "JavaScript", "React", "HTML", "CSS"],
     },
   ];

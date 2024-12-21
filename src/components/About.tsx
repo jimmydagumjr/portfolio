@@ -7,26 +7,28 @@ const About: React.FC = () => {
       <div className={AboutCSS.aboutWrapper}>
         <h2>about</h2>
         <p className={AboutCSS.aboutInfo}>
-          Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-          accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae
-          ab illo inventore veritatis et quasi architecto beatae vitae dicta
-          sunt explicabo.
-          <br></br>
-          <br></br>
-          Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut
-          fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem
-          sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor
-          sit amet, consectetur, adipisci velit, sed quia non numquam eius modi
-          tempora incidunt ut labore et dolore magnam aliquam quaerat
-          voluptatem.
-          <br></br>
-          <br></br>
-          Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis
-          suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis
-          autem vel eum iure reprehenderit qui in ea voluptate velit esse quam
-          nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo
-          voluptas nulla pariatur?
+          I am a passionate computer science student at the University of
+          Nevada, Las Vegas, graduating in May 2026. I fell in love with
+          programming and computer science at the age of 15. With a strong
+          foundation in programming languages like C++, Python, and JavaScript,
+          I&apos;ve developed expertise in building web applications, solving
+          technical challenges, and working with tools like React, Proxmox, and
+          MATLAB.
+          <br />
+          <br />
+          I see programming the same way I approach my love for making music—as
+          a creative process of connecting puzzle pieces to craft something
+          impactful for others to use and enjoy. My technical projects, from
+          automating virtual machine processes to developing online music
+          players and galleries for me and my friends, reflect this philosophy.
+          <br />
+          <br />
+          When I&apos;m not coding, you can find me exploring new music or
+          working on personal development projects. I aim to merge creativity
+          and technical skills to make meaningful contributions to the tech
+          industry.
         </p>
+
         {/* <h2>skills</h2> */}
         <div className={AboutCSS.skillsWrapper}>
           <a className={AboutCSS.skillItem} title="C++">

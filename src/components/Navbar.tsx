@@ -20,16 +20,6 @@ const Navbar: React.FC = () => {
 const NavbarLinks: React.FC = () => {
   return (
     <>
-      {/* <div className={NavbarCSS.navLeft}>
-        <Link to="intro" smooth duration={500} spy hashSpy>
-          Intro
-        </Link>
-      </div> */}
-      {/* <div className={`${NavbarCSS.logo} ${NavbarCSS.cathartic}`}>
-        <Link to="about-me" smooth duration={500} spy hashSpy>
-          About Me
-        </Link>
-      </div> */}
       <div className={NavbarCSS.navCenter}>
         <Link to="about" smooth duration={500} spy hashSpy>
           about

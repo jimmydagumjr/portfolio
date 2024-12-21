@@ -22,6 +22,22 @@
   font-size: 2rem;
   margin-top: 0;
   margin-bottom: 0;
+  font-weight: bold;
+  transition: transform 0.3s ease;
+  cursor: pointer;
+  display: flex;
+}
+
+.linkIcon {
+  width: 1.4rem;
+  height: 1.4rem;
+  margin-left: 0.5rem;
+  margin-top: 0;
+}
+
+.projectTitle:hover {
+  transform: translateX(1.2rem);
+  color: var(--gray);
 }
 
 .projectDescription {
@@ -55,4 +71,19 @@
   font-size: 1.2rem;
   margin-top: 0;
   margin-bottom: 0;
+}
+
+/* media query for screens smaller than 480px */
+@media (max-width: 480px) {
+  .project {
+    flex-direction: column; /* stack date above rightWrapper */
+    gap: 0.5rem;
+    margin-bottom: 2.2rem;
+  }
+
+  .projectImage {
+    flex: unset; /* remove reserved width */
+    margin-bottom: 0.5rem;
+    align-self: center;
+  }
 }

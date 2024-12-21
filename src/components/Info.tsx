@@ -7,7 +7,7 @@ const Info: React.FC = () => {
       <div className={InfoCSS.infoWrapper}>
         <div className={InfoCSS.infoContainer}>
           <div className={InfoCSS.imageSection}>
-            <img src="/images/pfp.jpg"></img>
+            <img src="/images/pfp.webp"></img>
           </div>
           <div className={InfoCSS.infoSection}>
             <h1 className={InfoCSS.infoName}>jimmy dagum</h1>

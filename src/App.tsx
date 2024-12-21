@@ -8,18 +8,18 @@ import Navbar from "./components/Navbar";
 
 const App: React.FC = () => {
   return (
-    <>
-      <Navbar />
-      <main>
+    <div className="appWrapper">
+      <aside className="sideSection">
+        <Navbar />
         <Info />
-        <div className="contentWrapper">
-          <About />
-          <Experience />
-          <Projects />
-          <Contact />
-        </div>
+      </aside>
+      <main className="contentWrapper">
+        <About />
+        <Experience />
+        <Projects />
+        <Contact />
       </main>
-    </>
+    </div>
   );
 };
 
