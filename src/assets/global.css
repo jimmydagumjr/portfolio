@@ -115,11 +115,24 @@ body {
 }
 
 h2 {
-   font-size: 3rem;
+  font-size: 3rem;
 }
 
 p {
-   font-size: 1.4rem;
+  font-size: 1.4rem;
+}
+
+/* remove default underline and color change on click */
+a {
+  text-decoration: none; /* removes the underline */
+  color: inherit; /* inherits the color from its parent element */
+}
+
+/* remove the default styling for hover and active states */
+a:hover,
+a:active {
+  text-decoration: none; /* ensures no underline on hover */
+  color: inherit; /* keeps the text color consistent */
 }
 
 ::selection {
@@ -132,4 +145,6 @@ p {
   margin: 0 auto; /* Horizontally center the content */
   display: flex;
   flex-direction: column; /* Ensure elements are stacked vertically */
+  padding-left: 1.6rem;
+  padding-right: 1.6rem;
 }

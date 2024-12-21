@@ -1,0 +1,21 @@
+.aboutInfo {
+   font-family: "Courier";
+}
+
+.skillsWrapper {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+}
+
+.skillItem {
+   width: 5.5rem;
+   height: 5.5rem;
+}
+
+@media (max-width: 480px) {
+   .skillItem {
+      width: 4rem;
+      height: 4rem;
+   }
+}

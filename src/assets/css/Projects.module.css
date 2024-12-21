@@ -1,0 +1,58 @@
+/* .projectsContainer {
+
+} */
+
+.project {
+  display: flex;
+  gap: 2rem;
+}
+
+.projectImage {
+  width: 200px;
+  height: 200px;
+}
+
+.rightContainer {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.projectTitle {
+  font-size: 2rem;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.projectDescription {
+  margin-top: 0rem;
+  margin-bottom: 0rem;
+  font-family: "Courier";
+}
+
+.projectSkills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-top: 0.8rem;
+}
+
+.projectSkillWrapper {
+  border-radius: 1rem;
+  background-color: var(--white);
+  display: flex;
+  padding: 0.5rem 0.8rem; /* space inside the card */
+  transition: 0.3s ease;
+}
+
+.projectSkillWrapper:hover {
+  transform: scale(1.05); /* slightly enlarge the card on hover */
+  box-shadow: 0 4px 6px var(--lightgray); /* intensify shadow on hover */
+}
+
+.projectSkill {
+  font-family: "Courier";
+  font-size: 1.2rem;
+  margin-top: 0;
+  margin-bottom: 0;
+}

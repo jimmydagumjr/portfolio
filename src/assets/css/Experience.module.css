@@ -1,0 +1,125 @@
+ul,
+ol {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.listWrapper {
+  width: 100%;
+}
+
+.listItem {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  margin-bottom: 1rem;
+  gap: 2rem;
+}
+
+.expDate {
+  font-family: "Courier";
+  margin-top: 0.5rem;
+  margin-bottom: 0;
+}
+
+.rightWrapper {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.expTitle {
+  font-size: 2rem;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.expCompany {
+  font-family: "Courier";
+  font-weight: bold;
+  font-size: 1.4rem;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  display: flex;
+  transition: transform 0.3s ease;
+  cursor: pointer;
+}
+
+.expCompany:hover {
+  transform: translateX(1.2rem);
+  color: var(--gray);
+}
+
+.linkIcon {
+  width: 1.2rem;
+  height: 1.2rem;
+  margin-left: 0.5rem;
+  margin-top: 0.1rem;
+}
+
+.expDescription {
+  margin-top: 0rem;
+  margin-bottom: 0rem;
+  font-family: "Courier";
+}
+
+.expSkillsWrapper {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-top: 0.8rem;
+}
+
+.expSkillWrapper {
+  border-radius: 1rem;
+  background-color: var(--white);
+  display: flex;
+  padding: 0.5rem 0.8rem; /* space inside the card */
+  transition: 0.3s ease;
+}
+
+.expSkillWrapper:hover {
+  transform: scale(1.05); /* slightly enlarge the card on hover */
+  box-shadow: 0 4px 6px var(--lightgray); /* intensify shadow on hover */
+}
+
+.expSkill {
+  font-family: "Courier";
+  font-size: 1.2rem;
+}
+
+.resumeLink {
+  font-family: "Courier";
+  font-size: 1.4rem;
+  cursor: pointer;
+  display: flex;
+  transition: 0.3s ease;
+}
+
+.resumeLink:hover {
+  transform: translateX(1.2rem);
+  /* color: var(--gray); */
+}
+
+.resumeLinkIcon {
+  width: 1.2rem;
+  height: 1.2rem;
+  margin-left: 0.5rem;
+  margin-top: 0.1rem;
+}
+
+/* media query for screens smaller than 480px */
+@media (max-width: 480px) {
+  .listItem {
+    flex-direction: column; /* stack date above rightWrapper */
+    gap: 0.5rem;
+    margin-bottom: 2.2rem;
+  }
+
+  .expDate {
+    flex: unset; /* remove reserved width */
+    margin-bottom: 0.5rem;
+  }
+}
