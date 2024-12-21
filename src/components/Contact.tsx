@@ -17,7 +17,7 @@ const Contact: React.FC = () => {
           <a href="mailto:jimmydagumjr@gmail.com">jimmydagumjr@gmail.com</a>
         </p>
         <p className={ContactCSS.contactDescription}>
-          linkedin:
+          linkedin:{" "}
           <a
             href="https://www.linkedin.com/in/jimmy-dagum/"
             target="_blank"
