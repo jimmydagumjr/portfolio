@@ -40,7 +40,7 @@ const Experience: React.FC = () => {
       company: "University of Nevada, Las Vegas",
       companyLink: "https://www.unlv.edu/",
       description:
-        "Architected a web application using ReactJS and in-house APIs to visualize real-time solar energy data across 16 buildings, alongside local weather conditions. Designed a Python-based solution to extract data from three separate databases, identifying missing key cards. Automated the consolidation of over 10,000 work orders and related surveys using JavaScript in Google Sheets. Provided technical support to over 250 UNLV staff across 19 buildings, troubleshooting hardware and software issues, configuring new computers with operating systems, software applications, and networking settings. I also maintained an inventory of over 300 computers and equipment, conducting regular audits to track the location and status of each item.",
+        "Architected a web application using ReactJS and in-house APIs to visualize real-time solar energy data across 16 buildings, alongside local weather conditions. Designed a Python-based solution to extract data from three separate databases, identifying missing key cards. Automated the consolidation of over 10,000 work orders and related surveys using JavaScript in Google Sheets. Provided technical support to over 250 UNLV staff across 19 buildings, troubleshooting hardware and software issues, configuring new computers with operating systems, software applications, and networking settings. Maintained an inventory of over 300 computers and equipment, conducting regular audits to track the location and status of each item.",
       skills: ["Python", "JavaScript", "React", "HTML", "CSS"],
     },
   ];
