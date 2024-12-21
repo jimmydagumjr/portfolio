@@ -19,11 +19,11 @@ const Contact: React.FC = () => {
         <p className={ContactCSS.contactDescription}>
           linkedin:
           <a
-            href="https://www.linkedin.com/in/jimmy-dagum-jr"
+            href="https://www.linkedin.com/in/jimmy-dagum/"
             target="_blank"
             rel="noopener noreferrer"
           >
-            https://www.linkedin.com/in/jimmy-dagum-jr
+            https://www.linkedin.com/in/jimmy-dagum/
           </a>
         </p>
       </div>
