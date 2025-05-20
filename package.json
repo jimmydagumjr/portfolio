@@ -9,7 +9,7 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
+    "deploy": "gh-pages --cname jimmydagumjr.com -d dist"
   },
   "dependencies": {
     "react": "^18.3.1",
