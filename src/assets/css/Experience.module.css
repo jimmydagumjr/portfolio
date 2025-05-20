@@ -16,12 +16,14 @@ ol {
   display: flex;
   margin-bottom: 1rem;
   gap: 2rem;
+  align-items: flex-start;
 }
 
 .expDate {
   font-family: "Courier";
   margin-top: 0.5rem;
   margin-bottom: 0;
+  flex: 0 0 24ch;
 }
 
 .rightWrapper {
