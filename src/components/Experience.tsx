@@ -6,7 +6,7 @@ interface ExperienceCardProps {
   title: string;
   company: string;
   companyLink?: string;
-  description: string;
+  description?: string;
   skills?: string[];
 }
 
@@ -16,13 +16,27 @@ interface SkillProps {
 
 const Experience: React.FC = () => {
   const experiences = [
+    {date: "May 2025 - Present",
+      title: "Software Engineer Intern",
+      company: "JT4",
+      companyLink: "https://www.jt4llc.com/"
+    },
+    {
+      date: "March 2025 - May 2025",
+      title: "Student Systems Administrator",
+      company: "University of Nevada, Las Vegas",
+      companyLink: "https://www.unlv.edu/",
+      description:
+        "Decommissioned over 10 legacy virtual servers(Linux & Windows) through a secure, phased approach. Developed and maintained Python scripts leveraging the KACE API, integrating them within the GitLab CI/CD pipeline (IaC) to automate regular updates for service owners. Collaborated with IT teams to monitor system performance and implement best practices for server maintenance.",
+      skills: ["Python", "KACE API"],
+    },
     {
       date: "May 2024 - December 2024",
       title: "Software & Systems Engineer Intern",
       company: "NexOasis",
       companyLink: "https://nexoasis.com/",
       description:
-        "Engineered a web UI for automating virtual machine cloning and secure file transfers via SSH, using Python, PHP, JavaScript, CSS (Bootstrap), and HTML. Designed and implemented MySQL data models to manage user-specific roles and associate virtual machine IDs with parsed cron jobs, facilitating the automated cloning process and secure file transfers. Configured a Proxmox environment to host numerous virtual machines serving as certificate authorities, and set up both GitLab and Gitea servers within virtual machines to ensure version control in a secure environment. Additionally, I automated cron jobs, managed virtual environments, and provided weekly documentation to ensure smooth operation and clear communication within the team.",
+        "Engineered a Proxmox-based web UI (Python, PHP, JS/Bootstrap, HTML) for automated VM certificate authority provisioning, cloning, and secure SSH file transfers–cutting manual effort by 80%. Designed and implemented MySQL data models to manage user-specific roles and associate virtual machine IDs with parsed cron jobs, facilitating the automated cloning process and secure file transfers; improved data retrieval speed by 30%. Implemented a Gitea Git server for 5 interns, hosting multiple repositories in a secure environment closed to outside users. Automated the deployment and configuration of a centralized syslog server to capture all system and user update logs. Additionally, I automated cron jobs, managed virtual environments, and provided weekly documentation to ensure smooth operation and clear communication within the team.",
       skills: [
         "PHP",
         "JavaScript",
