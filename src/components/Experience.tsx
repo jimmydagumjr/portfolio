@@ -16,10 +16,14 @@ interface SkillProps {
 
 const Experience: React.FC = () => {
   const experiences = [
-    {date: "May 2025 - Present",
+    {
+      date: "May 2025 - Present",
       title: "Software Engineer Intern",
       company: "JT4",
-      companyLink: "https://www.jt4llc.com/"
+      companyLink: "https://www.jt4llc.com/",
+      description:
+        "Architected a secure, portable-across-networks Next.js (TypeScript/Tailwind) platform—implemented authentication and authorization with network isolation and migrated SQL Server from raw SQL to Prisma (type-safe queries and schema migrations). Engineered feature-level caching (e.g., org chart) with in-memory hash maps, reducing redundant DB queries by 90%. Integrated RabbitMQ and enhanced a Go microservice to fan out batched email payloads, boosting pipeline throughput by ≈ 2× via per-message retries and re-queuing of failures. Shipped a real-time, role-scoped moderator feed over WebSockets, cutting time-to-visibility for new reports from minutes to seconds—cursor-based pagination and infinite queries reduced API calls per session by ≈ 60% and DB reads by ≈ 70%. Delivered in weekly Agile/Scrum sprints; used GitLab merge requests with continuous peer feedback and reviews",
+      skills: ["Next.js", "TypeScript", "Go", "SQL Server", "Prisma ORM", "RabbitMQ (AMQP)", "Socket.IO (WebSockets)", "SMTP", "TanStack Query"]
     },
     {
       date: "March 2025 - May 2025",
