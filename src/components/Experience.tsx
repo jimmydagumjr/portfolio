@@ -17,7 +17,16 @@ interface SkillProps {
 const Experience: React.FC = () => {
   const experiences = [
     {
-      date: "May 2025 - Present",
+      date: "November 2025 - Present",
+      title: "Software Engineer Intern",
+      company: "University of Nevada, Las Vegas",
+      companyLink: "https://www.unlv.edu/",
+      description:
+        "Migrated a legacy MATLAB-based air quality modeling tool (SCMB) into a production web application using Next.js and Node.js. Containerized the MATLAB runtime and application stack with Docker for reproducible deployment on Linux servers. Designed REST APIs to execute simulations, manage scenarios, and persist model outputs to a database. Implemented a scenario-saving system to store configurations, rerun models, and export multi-sheet Excel results",
+      skills: ["MATLAB", "Next.js", "TypeScript", "Docker"]
+    },
+    {
+      date: "May 2025 - August 2025",
       title: "Software Engineer Intern",
       company: "JT4",
       companyLink: "https://www.jt4llc.com/",
